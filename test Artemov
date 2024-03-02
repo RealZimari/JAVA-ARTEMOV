@@ -1,16 +1,21 @@
+1 задание 
+import java.util.Scanner;
 
+public class helosuka {
+    public static void main(String[] args) {
+                Scanner sc = new Scanner(System.in);
+                int a = sc.nextInt();
+                int b = sc.nextInt();
+                if (a > b) System.out.println("a>b");
+                else if (a < b) System.out.println("a<b");
+                else{ System.out.println("a=b");
+                }
+                System.out.println(a+b +" сложение");
+                System.out.println(a-b +" вычитание");
+                System.out.println(a/b +" деление");
+                System.out.println(a*b +" умножение");
 
-
-
-
-
-
-
-
-
-
-
-
+            }}
 
 2 задание 
 
@@ -26,3 +31,13 @@ public class helosuka {
     }
 
 }
+public class helosuka {
+    public static void main(String[] args) {
+        int [] kolvo_huev_vo_rty = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        for (int number : kolvo_huev_vo_rty )
+            if (number % 2 == 0)
+            System.out.println(number + " это четное число");
+
+
+        }
+    }
