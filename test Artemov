@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2 задание 
+
+public class helosuka {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String a = sc.nextLine();
+        String b = sc.nextLine();
+        boolean answer = a.equals(b);
+        if (a.equals(b))
+            System.out.println("Строки идентичны");
+        else System.out.println("Строки не идентичны");
+    }
+
+}
